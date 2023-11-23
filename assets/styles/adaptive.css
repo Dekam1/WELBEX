@@ -77,7 +77,7 @@
 	}
 }
 
-@media (max-width: 420px) {	
+@media (max-width: 420px) {
 	.wrapper {
 		padding: 0px;
 	}
@@ -116,6 +116,18 @@
 
 	.header__services-item:last-child {
 		display: none;
+	}
+
+	html,
+	body {
+		background-image: none;
+	}
+
+	.main {
+		background-image: url("../img/mobile-bg.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
 	}
 
 	.main__wrapper {
@@ -175,14 +187,17 @@
 	}
 
 	.footer {
+		padding-top: 35px;
 		padding-bottom: 60px;
+		background-color: #0E1014;
 	}
 
 	.footer__list-item {
 		font-size: 14px;
 	}
 
-	.footer__left-info>p, .footer__right-info>p {
+	.footer__left-info>p,
+	.footer__right-info>p {
 		font-size: 12px;
 	}
 
